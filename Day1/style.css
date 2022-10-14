@@ -1,0 +1,53 @@
+.navbar{
+  background-color: #E3FDFD; 
+}
+
+.container-fluid{
+  margin:30px;
+}
+
+.main-body{ 
+  color:#27496D;
+  position:absolute;
+  margin: 0;
+  height: 100%;
+  width:100%; 
+}
+
+.profile{
+  background-color: #CBF1F5;
+  text-align:center;
+  padding:20px;
+}
+
+.profile-img{
+  width:20%;
+
+}
+
+#challengeList{
+  box-sizing:border-box;
+  position:absolute;
+  padding-top: 20px;
+  padding-left:300px;
+  margin:0;
+  padding-bottom: 20px;
+  height:400px;
+  overflow: scroll;
+}
+
+#footer{
+  background-color: #E3FDFD;
+  text-align: center;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:60px;
+   
+}
+
+.fa{
+  padding:10px;
+}
+
+

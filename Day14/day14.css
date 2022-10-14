@@ -1,0 +1,28 @@
+body{
+  height: 100vh;
+  padding:0;
+  margin: 0;
+  background-color:greenyellow;
+}
+
+#circle-container{
+  height: 100%;
+  width:100%;
+  padding:0;
+  margin: 0;
+  background-color: black;
+}
+
+.circle{
+  position:absolute;
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  
+  box-shadow: 0 0 20px rgba(225,225,255,0.8);
+  transition: 0.001s ease-in-out;
+  
+}
+
+

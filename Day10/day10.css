@@ -1,0 +1,42 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.navbar{
+  background-color: #FDFAF6;
+}
+
+.dish_container{
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+  
+}
+
+.dish_pic{
+  padding-top:10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height:70%;
+  width:100%;
+}
+
+.dish_card{
+  background-color: #FAF1E6;
+  height:100% ;
+}
+
+.checked{
+  color: burlywood;
+}

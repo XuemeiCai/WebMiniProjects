@@ -1,0 +1,70 @@
+
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin:0;
+}
+body{
+  padding:0;
+  margin:0;
+  height: 100vh;    
+  width: 100%;
+
+}
+.container{
+  position: absolute;
+  min-width: 1440px;
+  padding:0;
+  margin:0;
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  background: rgba(0, 0, 0, 0.7)
+}
+
+.shenyang-container,.stockholm-container{
+  
+  text-align: center;
+  padding:0;
+  margin:0;
+  height: 100%;
+  width: 100%;  
+  
+}
+
+
+.shenyang-container{
+  background: url(images/shenyang.jpg)center/cover no-repeat;
+  width:50%;
+  height:100vh;
+  flex-grow: 1;
+}
+.stockholm-container{
+  background: url(images/stockholm.jpg)center/cover no-repeat;
+  width:50%;
+  height:100vh;
+  flex-grow: 1;
+}
+
+.info{
+  margin-top:20%;
+  padding:0;
+  height: 50%;
+  width: 100%;
+  background: rgba(7, 6, 6, 0.4);
+  border-radius: 10px;
+}
+
+h1,h2,h3{
+  margin:5%;
+  color:white; 
+}
+
+h1{
+  padding-top: 20px;
+}
+

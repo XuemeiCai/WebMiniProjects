@@ -1,0 +1,249 @@
+body{
+  background-color: #FBF8F1;
+}
+.title{
+  text-align: center;
+}
+#color_palette{
+  margin-right: 100px;
+}
+
+.color{
+  height:50px;
+  width:50px;
+  border:1px solid black;
+  margin:30px;
+  
+
+}
+
+.flex-container{
+  display:flex;
+  flex-wrap:nowrap;
+  margin-left: 100px;
+  
+  
+
+
+}
+
+.canvas{
+  display:flex;
+  flex-wrap: nowrap;
+  flex-direction:column;
+  justify-content: flex-start;
+  background-color: aquamarine;
+}
+
+.row{
+  
+  width:150px;
+  height:120px;
+  /* border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black; */
+}
+
+#row1{
+  display:flex;
+  flex-wrap:nowrap;
+  flex-grow: 1;
+  
+}
+
+#row2{
+  display:flex;
+  flex-wrap:nowrap;
+  flex-grow: 1;
+}
+
+#row3{
+  display:flex;
+  flex-wrap:nowrap;
+  flex-grow: 1;
+}
+
+#row4{
+  display:flex;
+  flex-wrap:nowrap;
+  flex-grow: 1;
+}
+
+#first-color{
+  background-color: red;
+}
+
+#second-color{
+  background-color: yellow;
+}
+
+#third-color{
+  background-color: black;
+}
+
+#fourth-color{
+  background-color: blue;
+}
+
+#row1_box1{
+  height:110px;
+  width:140px;
+  border-top: 1px solid black;
+  border-bottom: 10px solid black;
+  border-left: 1px solid black;
+  border-right:10px solid black;
+  
+}
+
+#row1_box2{
+  height:110px;
+  width:310px;
+  border-top: 1px solid black;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+  border-right:10px solid black;
+  
+}
+
+#row1_box3{
+  height:110px;
+  width:100px;
+  border-top: 1px solid black;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+  border-right:10px solid black;
+  
+}
+
+#row1_box4{
+  height:110px;
+  width:160px;
+  border-top: 1px solid black;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+  border-right:1px solid black;
+  
+}
+
+#row2_box1{
+  height:180px;
+  width:140px;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  border-left: 1px solid black;
+  border-right:10px solid black;
+  
+}
+
+#row2_box2{
+  height:180px;
+  width:310px;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+  border-right:10px solid black;
+  
+}
+
+#row2_box3{
+  height:180px;
+  width:100px;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+  border-right:10px solid black;
+  
+}
+
+#row2_box4{
+  height:180px;
+  width:160px;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+  border-right:1px solid black;
+  
+}
+
+#row3_box1{
+  height:90px;
+  width:140px;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  border-left: 1px solid black;
+  border-right:10px solid black;
+  
+}
+
+#row3_box2{
+  height:90px;
+  width:310px;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+  border-right:10px solid black;
+  
+}
+
+#row3_box3{
+  height:90px;
+  width:100px;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+  border-right:10px solid black;
+  
+}
+
+#row3_box4{
+  height:90px;
+  width:160px;
+  border-top: 10px solid black;
+  border-bottom: 10px solid black;
+  border-left: 10px solid black;
+  border-right:1px solid black;
+  
+}
+
+#row4_box1{
+  height:160px;
+  width:140px;
+  border-top: 10px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right:10px solid black;
+  
+}
+
+#row4_box2{
+  height:160px;
+  width:310px;
+  border-top: 10px solid black;
+  border-bottom: 1px solid black;
+  border-left: 10px solid black;
+  border-right:10px solid black;
+  
+}
+
+#row4_box3{
+  height:160px;
+  width:100px;
+  border-top: 10px solid black;
+  border-bottom: 1px solid black;
+  border-left: 10px solid black;
+  border-right:10px solid black;
+  
+}
+
+#row4_box4{
+  height:160px;
+  width:160px;
+  border-top: 10px solid black;
+  border-bottom: 1px solid black;
+  border-left: 10px solid black;
+  border-right:1px solid black;
+  
+}
+
+

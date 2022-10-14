@@ -1,0 +1,520 @@
+body{
+    margin:0;
+    background-color: white;
+}
+
+
+
+
+.info{
+    top:0;
+    position: sticky;
+    width: 100%;
+    margin: 0;
+    padding:.75rem;
+    height:1rem;
+    background-color: black;
+    color:#FFFFFF;
+    text-align: center;
+    z-index:1;
+}
+
+nav{
+    position: sticky;
+    top:2.5rem;    
+}
+
+.navbar{
+    margin:0;
+    background-color:white;
+    position: sticky;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    z-index:1;
+    border-bottom: solid;
+    border-color: black;
+    
+}
+
+.category-menu{
+    position: relative;
+    left:0;
+    margin:0;
+    background-color: white;
+    width:40%;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+button{
+    border: none;
+    background-color: white;;
+}
+
+.brand{
+    position: relative;
+    left:0;
+    width:3rem;
+    font-weight: bold;
+    border:none;
+    color:black;
+    background-color: #FFFFFF;
+    
+}
+
+.dropdown{
+    height: 100%;
+    position:relative;
+    display: inline-block;
+}
+
+.dropbtn{
+    border:none;
+    padding:0 2rem;
+    background-color: #FFFFFF;
+    color:black;
+    height: 100%;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+
+.dropdown-link{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.dropdown-img{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.shipping-info{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color:#F7D08A;
+    margin:1rem;
+}
+
+.dropdown-content a{
+    color:black;
+    padding:12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: whitesmoke;
+}
+
+.newArrivals:hover .newArrivalsContent{
+    width: 100%; 
+    display: grid;
+    grid-template-columns: 30% 55% 15%;
+    justify-items: start;
+    position: absolute;
+    background-color:white;
+    position: fixed;
+    top:5.5rem;
+    left:0;
+    min-width: 100%;
+    z-index:99;
+    border-bottom: solid;
+    border-color: black;  
+}
+
+.women:hover .womenContent{
+    width: 100%; 
+    display: grid;
+    grid-template-columns: 30% 55% 15%;
+    justify-items: start;
+    position: absolute;
+    background-color:white;
+    position: fixed;
+    top:5.5rem;
+    left:0;
+    min-width: 100vw;
+    z-index:99;
+    border-bottom: solid;
+    border-color: black;
+}
+
+.men:hover .menContent{
+    width: 100%; 
+    display: grid;
+    grid-template-columns: 30% 55% 15%;
+    justify-items: start;
+    position: absolute;
+    background-color:white;
+    position: fixed;
+    top:5.5rem;
+    left:0;
+    min-width: 100%;
+    z-index:99;
+    border-bottom: solid;
+    border-color: black;
+}
+
+.magazine:hover .magazineContent{
+    width: 100%; 
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    justify-items: start;
+    position: absolute;
+    background-color:white;
+    position: fixed;
+    top:5.5rem;
+    left:0;
+    min-width: 100%;
+    z-index:99;
+    border-bottom: solid;
+    border-color: black;
+}
+
+.dropdown-img{
+    height:300px;
+    width:200px;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: #FFFFFF;
+}
+
+.function-menu{
+    padding:0 1rem;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select{
+    border-style: none;
+    background-color: #FFFFFF;
+}
+option{
+    border-style:none;
+    background-color: #FFFFFF;
+}
+
+
+.toggle{
+    display: none;
+}
+
+.toggle-button{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+
+}
+
+.search-bar{
+    border: none;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    top:30px;
+    background-color:black;
+    border-radius: 10px;
+}
+
+.function-menu-brand{
+    display: none;
+    font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 1151px) {
+.category-menu{
+    display: none;
+}
+
+.brand{
+    display: block;
+}
+
+.dropdown{
+    display: none;
+}
+
+.toggle{
+    display: flex;
+}
+
+.function-menu{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temp-hide{
+    display: none;
+}
+
+.fa-search{
+    left:3rem;
+}
+
+
+}
+/* sidebar */
+.active{
+    display: flex !important;
+}
+.sidebarFullpage{
+    display: none;
+    position: fixed;
+    margin:0;
+    top:0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: stretch;
+    z-index: 99999;
+
+}
+.sidebar{
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    width:30%;
+    z-index:9999;
+}
+
+.categorySidebar{
+    margin:.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:whitesmoke;
+    color:black;
+}
+
+.categorySidebar button{
+    background-color:whitesmoke;
+    color:black;
+}
+
+.functionSidebar{
+    margin:.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: whitesmoke;
+    color:black;
+}
+
+.rightPage{
+    width: 70%;
+    background-color:black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: stretch;
+
+}
+
+.closeBtn{
+    background-color:black;
+    opacity: 1;
+}
+
+.fa-close{
+    color:white;
+    font-size:1.6rem;
+}
+
+@media only screen and (min-width: 1151px){
+ .sidebarFullpage{
+    display: none !important;
+ }
+}
+
+/* home page */
+.atelier-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    position: relative;
+    background-color: white;
+}
+
+.atelier-block{
+    text-align: center;
+    width:33.33%;
+}
+
+div>a {
+    color:black;
+}
+
+.brand-name{
+    font-size:8rem;
+    background-color: white;
+}
+
+.atelier-image{
+    padding:30px 0px;
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows:  auto;
+    row-gap:50px;
+    position:relative;
+    background-color:white;
+    border-bottom: solid black;
+    
+}
+
+.atelier-single-image{
+    position: relative;
+    width:100%;
+    height: 98%;
+    object-fit: fill;
+}
+
+
+.women-img{
+    grid-column-start:2;
+    grid-column-end: 3;
+    object-fit: cover;
+}
+
+.men-img{
+    grid-column-start:3;
+    grid-column-end: 4;
+    
+}
+
+
+.atelier-img-text{
+    position: absolute;
+    top:50%;
+    left:10%;
+    z-index:9;
+    font-size: 1rem;
+    color:white;
+    grid-column-start:2;
+    grid-column-end: 4;
+    justify-content: stretch;
+}
+
+
+.sale-info{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    grid-template-rows: 50px 100px 50px ;
+    border-bottom: solid black;
+}
+
+.sale-text{
+    font-weight: bold;
+    font-size: 4.5rem; 
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;   
+    grid-row-end: 3; 
+}
+
+.shop-btns{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;   
+    grid-row-end: 3; 
+}
+
+.shop-btn{
+    width:70%;
+    height: 40%;
+    background-color: black;
+    color:white;
+}
+
+.shop-btn-link{
+    color:white;
+    text-decoration: none;
+}
+
+.sale-percent{
+    font-size:3rem;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;   
+    grid-row-end: 3; 
+    text-align: center;  
+}
+
+.more-info{
+    height:100px;
+    width:100%;
+    margin:0;
+    background-color: white;
+    text-align: center;
+    padding-bottom:50px;
+    border-bottom:solid lightgray;
+}
+
+.more-info-text{
+    font-size:2rem;
+    font-weight: bold;
+    margin:20px;
+}
+
+
+.more-info-btn{
+    border:solid black;
+    background-color: white;
+    color:black;
+    padding:10px;
+}
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info{
+    padding:20px 50px;
+    width:40%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-subscribe{
+    width:30%;
+    padding:20px;
+    font-size:1.5rem;
+}
+
+.footer-sub-btn{
+    background-color: black;
+    color:white;
+    font-size:1rem;
+}
+
+
+
+

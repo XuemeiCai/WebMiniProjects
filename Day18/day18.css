@@ -1,0 +1,198 @@
+#sky{
+  padding:0;
+  margin:0;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #757abf 0%,#8583be 60%,#eab0d1 100%);
+}
+
+#moon{
+    position: absolute;
+    /* margin: auto; */
+    top: 30%;
+    /* right: 50px;
+    bottom: ; */
+    left: 70%;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 25px 10px 0 0 #FFF56D;
+    
+}
+
+.fa-star{
+  color:#FFF56D;
+  font-size: 15px;
+}
+
+#star1{
+  position: absolute;   
+  top: 40%;
+  left: 50%;
+  animation: blink 5s infinite linear;
+}
+#star2{
+  position: absolute;   
+  top: 10%;
+  left: 60%;
+  animation: blink 4s infinite linear;
+}
+
+#star3{
+  position: absolute;   
+  top: 60%;
+  left: 60%;
+  animation: blink 3s infinite linear;
+}
+
+#star4{
+  position: absolute;   
+  top: 20%;
+  left: 80%;
+  animation: blink 4s infinite linear;
+}
+
+#star5{
+  position: absolute;   
+  top: 35%;
+  left: 30%;
+  animation: blink 2s infinite linear;
+}
+
+#star6{
+  position: absolute;   
+  top: 50%;
+  left: 85%;
+  animation: blink 3s infinite linear;
+}
+
+#star7{
+  position: absolute;   
+  top: 70%;
+  left: 20%;
+  animation: blink 2s infinite linear;
+}
+
+@-webkit-keyframes blink{
+  0%{
+    visibility: hidden;
+    
+    
+  }
+
+  50%{
+    font-size: 17px;
+    
+  }
+
+  100%{
+
+    color:#FFD124;
+    
+  }
+}
+
+.building{
+  padding:0;
+  margin:0;
+  /* position:absolute; */
+  bottom:0;
+}
+
+.buildings{
+  color:black;
+  font-size: 100px;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.text{
+  position: absolute;
+  bottom:0;
+
+  display: block;
+  text-align: center;
+  animation-name:scrollingText;
+  animation-duration: 20s;
+  animation-timing-function:linear;
+  animation-iteration-count: infinite;
+  
+  
+  
+  
+}
+
+.line{
+  color:#F5EEDC;
+  
+  
+  
+}
+
+/* #line1{
+  animation-name:scrollingText;
+  animation-duration: 20s;
+  animation-timing-function:linear;
+}
+
+#line2{
+  animation-name:scrollingText;
+  animation-duration: 20s;
+  animation-timing-function:linear;
+}
+
+#line3{
+  animation-name:scrollingText;
+  animation-duration: 20s;
+  animation-timing-function:linear;
+}
+
+#line4{
+  animation-name:scrollingText;
+  animation-duration: 20s;
+  animation-timing-function:linear;
+}
+
+#line5{
+  animation-name:scrollingText;
+  animation-duration: 20s;
+  animation-timing-function:linear;
+} */
+
+@-webkit-keyframes scrollingText{
+  0%{
+    display: block;
+    bottom:0;
+
+  }
+
+  25%{
+    display: block;
+    bottom:25%;
+  }
+
+
+  50%{
+    display: block;
+    bottom: 50%;
+
+  }
+
+  75%{
+    display: block;
+    bottom: 75%;
+  }
+
+
+  100%{
+    display: block;
+    bottom:100%;
+  }
+}
+

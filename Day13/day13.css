@@ -1,0 +1,80 @@
+#container{
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  
+}
+
+#shape-block{
+  background-color: #F7E2E2;
+  border:1px solid black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 0;
+  width: 30%;
+  
+}
+
+
+
+#canvas{
+  background-color: bisque;
+  flex-grow: 4;
+ 
+}
+
+#square{
+  height: 60px;
+  width:60px;
+  background-color: #39AEA9;
+}
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid #F0A500;
+  
+}
+
+#circle {
+  width: 60px;
+  height: 60px;
+  background:#F68989;
+  border-radius: 50%;
+}
+
+#triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid #86C6F4;
+}
+
+#parallelogram {
+  width: 60px;
+  height: 50px;
+  transform: skew(20deg);
+  background: #8843F2;
+ 
+}
+
+#cone {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 50px solid #630000;
+  border-radius: 50%;
+}
+
+#rectangle {
+  width: 70px;
+  height: 40px;
+  background: #1597E5;
+}

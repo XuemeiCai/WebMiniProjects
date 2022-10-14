@@ -1,0 +1,163 @@
+body{
+  background-color: #F0FFC2;
+}
+
+#title{
+  text-align: center;
+}
+
+h2{
+  color:#C65D7B
+}
+
+h3{
+  color:#C65D7B
+}
+
+.animation-wrapper{
+  margin: auto;
+  width: 50%;
+}
+#ball {
+  
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: turquoise;
+  animation-name:bounce;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+  animation-direction: alternate-reverse;
+  animation-play-state: running;
+
+
+}
+
+@-webkit-keyframes bounce{
+  0%{
+    background-color: #874356;
+    transform: scale(1);
+    top:0px
+    
+    
+  }
+
+  10%{
+    background-color:#C65D7B;
+    transform: scale(1.3);
+    top:530px;
+    
+    
+  }
+
+  20%{
+    background-color: #FFBBBB;
+    transform: scale(1);
+    top:50px;
+    
+  }
+
+ 
+
+  30%{
+    background-color: #F0FFC2;
+    transform: scale(1.3);
+    top:530px;
+    
+  }
+
+  40%{
+    background-color: #BFFFF0;
+    transform: scale(1);
+    top:120px;
+    
+  }
+
+ 
+
+  50%{
+    background-color: #00B4D8;
+    transform: scale(1.3);
+    top:530px;
+    
+  }
+
+  55%{
+    background-color: #00B4D8;
+    transform: scale(1);
+    top:170px;
+    
+  }
+
+  60%{
+    background-color: aqua;
+    transform: scale(1.4);
+    top:530px;
+   
+  }
+
+  65%{
+    background-color: #00B4D8;
+    transform: scale(1);
+    top:200px;
+    
+  }
+
+  70%{
+    background-color: #6998AB;
+    transform: scale(1.4);
+    top:530px;
+    
+  }
+
+  75%{
+    background-color: #00B4D8;
+    transform: scale(1);
+    top:250px;
+    
+  }
+
+ 
+
+  80%{
+    background-color: #7CD1B8;
+    transform: scale(1.2);
+    top:530px;
+    
+  }
+
+  85%{
+    background-color: #00B4D8;
+    transform: scale(1);
+    top:300px;
+    
+  }
+
+
+  90%{
+    background-color: #064635;
+    transform: scale(1.2);
+    top:530px;
+    
+  }
+
+  93%{
+    background-color: #00B4D8;
+    transform: scale(1);
+    top:350px;
+    
+  }
+
+ 
+  100% {
+    background-color:#AE431E;
+    transform: scale(1.2);
+    top:530px
+    
+    
+  }
+}

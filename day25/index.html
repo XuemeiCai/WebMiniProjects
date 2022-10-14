@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d0302f1c8c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Day25 COS MockWeb</title>
+</head>
+<body>
+    
+    <div class="info">SALES START NOW: UP TO 50% OFF!</div>
+    <!-- start of navbar -->
+    <nav class="navbar">
+        
+        <!-- category menu -->
+        <div class="category-menu">
+            <button class="brand">COS</button>
+            <div class="dropdown newArrivals">
+                <button class="dropbtn ">New Arrivals</button>
+                <div class="dropdown-content newArrivalsContent">
+                    <div class="dropdown-link">
+                        <a href="#">Women: New Arrivals</a>
+                        <a href="#">Women: New Accessories</a>
+                        <a href="#">Men: New Arricals</a>
+                        <a href="#">Men: New Accessories</a>
+                    </div>
+
+                    <img class="dropdown-img" id="newArrivalsImg" src="imgs/new.png" alt="New Arrivals" > 
+                    <div class="shipping-info">FREE SHIPPING ON ORDERS OVER 990SEK.</div> 
+                      
+                </div>
+                
+            </div>
+            <div class="dropdown women">
+                <button class="dropbtn ">Women</button>
+                <div class="dropdown-content womenContent">
+                    <div class="dropdown-link">
+                        <a href="#">Salse</a>
+                        <a href="#">New Arrivals</a>  
+                        <a href="#">Coats&Jackets</a>  
+                        <a href="#">Knitwear</a> 
+                        <a href="#">Cashmere</a> 
+                    </div>
+                    <img class="dropdown-img" id="womenImg" src="imgs/woman.png" alt="Women" >
+                    <div class="shipping-info">FREE SHIPPING ON ORDERS OVER 990SEK.</div> 
+
+                </div>
+            </div>
+            <div class="dropdown men">
+                <button class="dropbtn ">Men</button>
+                <div class="dropdown-content menContent">
+                    <div class="dropdown-link">
+                        <a href="#">Salse</a>
+                        <a href="#">New Arrivals</a>  
+                        <a href="#">Coats&Jackets</a>  
+                        <a href="#">Knitwear</a> 
+                        <a href="#">Cashmere</a> 
+                    </div>
+                    <img class="dropdown-img" id="menImg" src="imgs/man.png" alt="Men">
+                    <div class="shipping-info">FREE SHIPPING ON ORDERS OVER 990SEK.</div> 
+
+                </div>
+            </div>
+            <div class="dropdown magazine">
+                <button class="dropbtn ">Magazine</button>
+                <div class="dropdown-content magazineContent">
+                    <div class="dropdown-link">
+                        <a href="#">Read the latest</a>
+                        <a href="#">People</a>  
+                        <a href="#">Stories</a>  
+                        <a href="#">Things</a> 
+                        <a href="#">Places</a> 
+                    </div>
+                    <img class="dropdown-img" id="magazine" src="imgs/magazine.png" alt="Magazine">
+                    <div class="shipping-info">FREE SHIPPING ON ORDERS OVER 990SEK.</div> 
+
+                </div>
+            </div>
+        </div>
+        
+        <!-- function menu -->
+        <div class="function-menu">
+            <div class="function toggle">
+                <button class="toggle-button" href="#">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+            
+            <div class="function search">
+                <i class="fa fa-search">
+                    <input class="function search-bar temp-hide" type="text" placeholder="Search"> </input>
+                </i>
+                
+            </div>
+            <button class="brand function-menu-brand">COS</button>
+            <button class="function account temp-hide">My Account</button>
+            <div class="function shipping temp-hide">
+                <i class="fa fa-truck"></i> 
+                Shipping to
+                    <select >
+                        <option>Sweden</option>
+                        <option>Finland</option>
+                    </select>
+                
+            </div>
+            <button class="function favouriate">
+                <i class="fa fa-heart"></i>
+            </button>
+
+            <button class="function cart">
+                <i class="fa fa-wallet"></i>
+            </button>
+            
+            
+
+        </div>      
+
+    </nav>
+    <!-- start of sidebar -->
+
+    <div class="sidebarFullpage">
+        <div class="sidebar">
+            <div class="categorySidebar">
+                <button>New Arrivals <i class="fa fa-chevron-right"></i></button>
+                <button>Women <i class="fa fa-chevron-right"></i></button>
+                <button>Men <i class="fa fa-chevron-right"></i></button>
+                <button>Magazine <i class="fa fa-chevron-right"></i></button>
+            </div>
+    
+            <div class="functionSidebar">
+                <div class="subscribeSidebar">
+                    <i class="fa fa-envelope"> Subscribe</i>
+                </div>
+                <div class="storeLocatorSidebar">
+                    <i class="fa fa-store"> Store Locator</i>
+                </div>
+                <div class="customerServiceSidebar">
+                    <i class="fa fa-comment"> Customer Service</i>
+                </div>
+                <div class="myAccountSidebar">
+                    <i class="fa fa-user"> My Account</i>
+                </div>
+                <div class="signoutSidebar">
+                    <i class="fa fa-user"> Signout</i>
+                </div>
+                <div class="shippingSidebar">
+                    <i class="fa fa-map"> Shipping to</i>
+                </div>
+            </div>
+    
+        </div>
+
+        <div class="rightPage">
+            <button class="closeBtn"><i class="fa fa-close"></i></button>
+        </div>
+    </div>
+    
+    <!-- the main part of the home page -->
+    <div class="atelier-info">
+        <div class="atelier-block">COS ATELIER</div>
+        <div class="atelier-block brand-name">COS</div>
+        <div class="atelier-block"><a href="#">SHOP THE COLLECTION</a></div>
+    </div>
+    
+    <div class="atelier-image">
+        <img class="atelier-single-image women-img" src="./imgs/woman.png" alt="atelierwomen"/>
+        <img class="atelier-single-image men-img" src="./imgs/man.png" alt="atelierman"/>
+        <div class="atelier-img-text">A CAPSULE COLLECTION by COS ATELIER FOUNDER ON THE PRINCIPLES OF LUXURY and EXCEPTIONAL DESING</div>
+    </div>
+
+    <div class="sale-info">
+        <div class="sale-block sale-text">Sale</div>
+        <div class="sale-block shop-btns">
+            <button class="shop-btn">
+                <a class="shop-btn-link" href="#">SHOP WOMEN</a>
+            </button>
+            <button class="shop-btn">
+                <a class="shop-btn-link"href="#">SHOP MEN</a>
+            </button>
+        </div>
+        <div class="sale-block sale-percent">Up to 60% off</div>
+    </div>
+    <div class="more-info">
+        <div class="more-info-text">More to explore</div>
+        <div class="more-info-btns">
+            <button class="more-info-btn">WOEMN'S KNITWEAR</button>
+            <button class="more-info-btn">MEN'S KNITWEAR</button>
+            <button class="more-info-btn">WOMEN'S COAT &JACKETS</button>
+            <button class="more-info-btn">MEN'S COAT &JACKETS</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-info">
+            <div class="first-col">
+                <div>Contact Us</div>
+                <div>Delivery Information</div>
+                <div>Returns & Refunds</div>
+                <div>Customer Service</div>
+                <div>COVID-19 FAQs</div>
+                <div>Payment</div>
+                <div>FAQs</div>
+                <div>Jeans Fit Guide</div>
+                <div>Size Guide</div>
+                <div>Privacy Notice</div>
+                <div>Cookie Setting</div>
+            </div>
+    
+            <div class="second-col">
+                <div>Store Locator</div>
+                <div>Student Discount</div>
+                <div>Sustainability</div>
+                <div>COS Resell</div>
+                <div>Product Care</div>
+                <div>COS by You</div>
+                <div>About COS</div>
+                <div>Careers</div>
+                <div>Press</div>
+            </div>
+    
+            <div class="third-col">
+                <div>Facebook</div>
+                <div>Pinterest</div>
+                <div>Instagram</div>
+                <div>Spotify</div>
+            </div>
+        </div>
+
+        <div class="footer-subscribe">
+            <div>Enjoy 10% off your first order
+                <span>
+                    <button class="footer-sub-btn">Subscribe</button>
+                </span>
+            </div>
+            
+        </div>
+        
+
+    </footer>
+        
+   
+
+
+    <!-- script  -->
+    <script src="app.js"></script>
+</body>
+</html>
