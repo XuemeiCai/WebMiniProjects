@@ -65,7 +65,7 @@ $npm start
 ```
 
 ### Day17 OpenWeatherApi Project: 
-The OpenWeather API key is encoded by Base64 for security reason, please add the encoded api key to the url as a query string. Open the `index.html` in your browser, and then add `?token=token=<your own encoded key>` to the end of the url in the address bar.
+The OpenWeather API key is encoded by Base64 for security reason, please add the encoded api key to the url as a query string. Open the `index.html` in your browser, and then add `?token=<your own encoded key>` to the end of the url in the address bar.
 
 `index.html?token=<encoded apiKey>`
 
