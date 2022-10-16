@@ -36,9 +36,12 @@ window.onload=function(){
   
   // obtain open weather data
   async function getWeather(){
-
-    const apiKey="09190d221b335fa32bf58a08a1f6dadd";
-    
+    // encode the openWeather Api key by Base64
+    //add the encoded apikey to the url as a query string 
+    //url?token=<the encoded api key>
+    const params = new URLSearchParams(document.location.search);
+    const token=params.get("token");
+    const apiKey = atob(token);
     const sy_weather=await fetch(`http://api.openweathermap.org/data/2.5/weather?q=shenyang&appid=${apiKey}&units=metric`)
     .then(response=>{return response.json()})
     .then(function(res){
